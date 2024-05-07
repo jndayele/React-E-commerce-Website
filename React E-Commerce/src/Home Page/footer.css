@@ -1,0 +1,132 @@
+.footer {
+    width: 100%;
+    border-bottom: 1px solid #3f3b4a;
+}
+
+
+
+.footer .container .wrapper {
+    display: flex;
+}
+
+.footer .container .wrapper .row {
+    margin-left: 30px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+
+}
+
+.footer .container .wrapper .row h4 {
+    margin-bottom: -20px;
+    text-align: center;
+    font-size: 20px
+}
+
+.footer .container .wrapper .row ul {
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    list-style: none;
+}
+
+.footer .container .wrapper .row .list {
+    line-height: 35px;
+}
+
+
+.footer .container .wrapper .row ul li {
+    margin-top: 5px;
+}
+
+.footer .container .wrapper .row ul li a {
+    color: #232323;
+    text-decoration: none;
+}
+
+.footer .container .wrapper .row ul li a:hover {
+    background: #f3f3f3;
+}
+
+.footer .container .wrapper .right {
+    text-align: justify;
+    margin-left: 450px;
+}
+
+.footer .container .wrapper .right h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.footer .container .wrapper .right p {
+    font-size: 17px;
+}
+
+.footer .container .wrapper .right input {
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 40px;
+    background: #f6f7f8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: #232323;
+}
+
+.footer .container .wrapper .right input::placeholder {
+    text-align: left;
+}
+
+.footer .container .wrapper .right .btn {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer .container .wrapper .right .btn button {
+    background: black;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    height: 20%;
+    letter-spacing: 2;
+    border: none;
+    cursor: pointer;
+}
+
+.footer .container .wrapper .right .btn button:hover {
+    background: #f6f7f8;
+    color: #232323;
+    box-shadow: #3f3b4a;
+}
+
+.footer-info {
+    width: 100%;
+}
+
+.footer-info .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info .wrapper p {
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.footer-info .wrapper .socials ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.footer-info .wrapper .socials ul li a {
+    color: #232323;
+    padding: 4px;
+}
+
+.footer-info .wrapper .socials ul li a:hover {
+    background: #f3f3f3;
+}
