@@ -1,0 +1,143 @@
+.mid-section {
+    width: 94%;
+    background: rgb(253, 198, 207);
+    height: 100%;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+
+.mid-section .column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-section .column .image img {
+    width: 320px;
+    height: 320px;
+    margin-left: -30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.mid-section .column .desc {
+    margin-top: 70px;
+    margin-left: 40px;
+
+}
+
+.mid-section .column .desc .header {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 250px;
+    line-height: 0.1;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.mid-section .column .desc h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.mid-section .column .desc .description {
+    text-align: left;
+    margin-right: 60px;
+}
+
+.mid-section .column .desc p {
+    text-align: justify;
+    margin-bottom: 50px;
+    font-size: 15px;
+    margin-left: 250px;
+}
+
+.mid-section .column .desc .comma-top {
+    font-weight: 600;
+    font-size: 50px;
+    margin-left: -25px;
+    margin-bottom: -50px;
+}
+
+.mid-section .column .desc .comma {
+    margin-left: 625px;
+    font-size: 50px;
+    margin-top: -29px;
+    font-weight: 600;
+}
+
+.mid-section .column .desc .btn {
+    margin-left: -3px;
+}
+
+.mid-section .column .desc .btn button {
+    background: black;
+    color: #fff;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    height: 20%;
+    letter-spacing: 2;
+    border: none;
+    cursor: pointer;
+}
+
+.mid-section .column .desc .btn button:hover {
+    background: #f6f7f8;
+    color: #232323;
+    box-shadow: #3f3b4a;
+}
+
+.containe {
+    width: 80%;
+    height: 100%;
+    background: url('http://localhost:3000/image/instagram.jpg');
+    background-size: 85em;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #3f3b4a;
+    padding: 40px 50px;
+}
+
+.containe .item {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.containe .item .vase {
+    width: 140px;
+    height: 140px;
+    margin-left: -130px;
+}
+
+.containe .item .clock {
+    width: 100px;
+    height: 100px;
+    margin-left: -260px;
+    margin-top: 110px;
+    z-index: 2;
+}
+
+.containe .item .table {
+    width: 150px;
+    height: 150px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+.containe .item .sofa {
+    width: 100px;
+    height: 100px;
+    margin-right: -260px;
+    margin-top: 120px;
+}
+
+.containe .item .chair {
+    width: 140px;
+    height: 140px;
+    margin-right: -100px;
+}
