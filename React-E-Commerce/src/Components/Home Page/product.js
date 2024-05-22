@@ -1,7 +1,22 @@
 import React from "react";
 import "./product.css";
 
-const Product = () => {
+
+function Product (props){
+  return(
+        <div className="detail-card">
+            <img className="detail-img" src={props.img} />
+            <div className="detail-name">
+                <h4>{props.name}</h4>
+                <p className="price">{props.price}</p>
+            </div>
+        </div>
+
+   
+  )
+}
+
+/*const Product = () => {
     return (
         <>
             <main>
@@ -132,5 +147,5 @@ const Product = () => {
         </>
     )
 }
-
+*/
 export default Product;
