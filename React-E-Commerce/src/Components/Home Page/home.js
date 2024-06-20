@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./home.css";
 import { MdArrowOutward } from "react-icons/md";
 import Product from "./product";
+import productInfo from "./ProductInfo";
 
 const Home = () => {
 
@@ -44,54 +45,31 @@ const Home = () => {
                     <div className="filter">
                     <h1>Popular Collection</h1>
                     <div className="detail-wrapper">
-                      <Product
-                      img = "image/flower-vase.png" alt="Flower Vase"
-                      name= "Flower Vase"
-                      price= {"$" + 29.99}
-                     />
-                       <Product
-                      img = "image/bookshelf.png" alt="Bookshelf"
-                      name= "Bookshelf"
-                      price= {"$" + 119.99}
-                     />
+                     {
+                        productInfo.slice(0,4).map((product,index) => (
+                            <Product
+                              key = {index}
+                              img = {product.img}
+                              name = {product.name}
+                              price = {`$${product.price.toFixed(2)}`}
 
-                     <Product 
-                     img = "image/white-chair.png" alt="Table Chair"
-                     name= "Table Chair"
-                     price = {"$" + 180.34}
-                     />
-                     
-                     <Product
-                     img ="image/black-clock.png" alt="Wall Clock"
-                     name = "Wall Clock"
-                     price = {"$" + 20.14}
-                     />
+                            />
+                        ))
+                     }
                      
                     </div>
 
                     <div className="detail-wrapper">
-                      <Product
-                      img = "image/round-table.png" alt="Round Table"
-                      name= "Round Table"
-                      price= {"$" + 24.99}
-                     />
-                       <Product
-                      img = "image/pottery-vase.png" alt="Pottery Vase"
-                      name= "Pottery Vase"
-                      price= {"$" + 24.99}
-                     />
-
-                     <Product 
-                     img = "image/wooden-sofa.png" alt="Wooden Sofa"
-                     name= "Wooden Sofa"
-                     price = {"$" + 140.22}
-                     />
-                     
-                     <Product
-                     img ="image/black-chair.png" alt="Black Chair"
-                     name = "Black Chair"
-                     price = {"$" + 160.34}
-                     />
+                     {
+                        productInfo.slice(4).map((product, index) => (
+                            <Product
+                            key = {index}
+                            img = {product.img}
+                            name = {product.name}
+                            price = {`$${product.price.toFixed(2)}`}
+                            />
+                        ))
+                     }
                      
                     </div>
 
